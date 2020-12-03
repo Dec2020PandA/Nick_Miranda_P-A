@@ -1,0 +1,30 @@
+Project Name: Client Case Data
+
+Project Overview:
+	
+	Simply Client Case Data is a data organizer for users to quickly access said data during a hectice workday and improve workflow. this is used
+	specifically for social workers, government agents, and welfare service providers to assist them with keeping track and organzing all their
+	clients and information along with them. Handling many cases a day with complex information, government applications are outdated and counter 
+	intuitive. This program will make it easy to create and organize client profiles and access them easily and effectilvey for efficient workflow.
+
+
+	P0
+	-Spring MVC framework
+	-user loging and registration 
+	-validations across all database objects
+	-MySQL database
+	-intuitve controls
+	
+	P1:
+	-display exact times for user actions 
+	-create,edit,delete,show client all on one page (dynamic)
+	
+	P3
+	-multiple user interaction
+	-dynamic JavaScript pages
+	-connecting front end to backend with JavaScript instead of JSTL
+
+	What is new to me:
+	-dynamic functionality with Javascript 
+	-AJAX, Jquery and possibly Reactjs
+	-file exporting
