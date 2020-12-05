@@ -1,23 +1,39 @@
-//Push Front 
-function placeValueInFront(arr, insertValue) {
-    var x = insertValue;
-    arr[0] = x;
-    return arr;
-}
-console.log(placeValueInFront([0,3,4,5,"yo"], "hello"));
+// //Push Front 
+// function placeValueInFront(arr, insertValue) {
+//     var x = insertValue;
+//     arr[0] = x;
+//     return arr;
+// }
+// console.log(placeValueInFront([0,3,4,5,"yo"], "hello"));
 
-//Pop Front
+// //Pop Front
 
-function popFront(arr) {
-    var x = arr[0];
-    for(let i = 0; i < arr.length; i++)
-        arr[i] = arr[i + 1];
-        arr.length = arr.length - 1;
-    return x;
-}
-console.log(popFront([5,6,7,8]));
+// function popFront(arr) {
+//     var x = arr[0];
+//     for(let i = 0; i < arr.length; i++)
+//         arr[i] = arr[i + 1];
+//         arr.length = arr.length - 1;
+//     return x;
+// }
+// console.log(popFront([5,6,7,8]));
 
-//Insert At
-funciton insertAt() {
-    
+// //Insert At
+// function insertAt(arr, idx, val) {
+//     for(let i = arr.length; i > idx; i--)
+//     arr[i] = arr[i-1]
+
+// arr[idx] = val;
+// return arr;
+// }
+// console.log(insertAt([4,5,6], 1, "hello")); //7 -6 
+
+// //Remove at
+
+function removeAt(arr, idx) {
+    // for(let i = arr.length; i > idx; i--)
+    // arr[i] = arr[i-1]
+
+    arr.pop(arr[idx]);
+    return arr; 
 }
+console.log(removeAt([2,3,4,5], 2));
