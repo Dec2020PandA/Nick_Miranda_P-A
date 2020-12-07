@@ -26,5 +26,5 @@ Project Overview:
 
 	What is new to me:
 	-dynamic functionality with Javascript 
-	-AJAX, Jquery and possibly Reactjs
+	-AJAX and Jquery
 	-file exporting
