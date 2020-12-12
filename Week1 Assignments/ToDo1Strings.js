@@ -21,7 +21,7 @@ function getDigits(str) {
         }
     }
     var onlyNumbers = newArr.join("");
-    return onlyNumbers/1;
+    return parseInt(onlyNumbers);
 }
 console.log(getDigits("1nmo3n4"));
 
